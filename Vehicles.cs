@@ -6,16 +6,28 @@ namespace Internship_2_Inventory
 {
     public class Vehicles : CommonProperties
     {
-        public int ExpirationDate { get; set; }
+        public string ExpirationDate { get; set; }
         public int Kilometers { get; set; }
+        public ManufacturerVehicles Manufacturer { get; set; }
 
-        public Vehicles(int serialNumber, string description, int dateOfPurchase, int monthsOfWarranty,
-            int price, string manufacturer, int expirationDate, int kilometers)
-            : base(serialNumber, description, dateOfPurchase, monthsOfWarranty, price, manufacturer)
+        public Vehicles(Guid serialNumber, string description, string dateOfPurchase, int monthsOfWarranty,
+            int price,ManufacturerVehicles  manufacturer, string expirationDate, int kilometers)
+            : base(serialNumber, description, dateOfPurchase, monthsOfWarranty, price)
         {
 
             ExpirationDate = expirationDate;
             Kilometers = kilometers;
+            Manufacturer = manufacturer;
         }
+        
+    }
+    public enum ManufacturerVehicles
+    {
+        Mercedes = 1,
+        Bmw,
+        Nissan,
+        Suzuki,
+        Honda
+
     }
 }
