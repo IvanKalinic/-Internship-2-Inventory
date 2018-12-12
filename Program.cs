@@ -154,6 +154,7 @@ namespace Internship_2_Inventory
             var myComputer = new Computer(Guid.NewGuid(), description, dateOfPurchase, monthsOfWarranty, price,
                 ManufacturerComputers.Acer, choiceForBattery, operationSystem, isPortable);
             myComputers.Add(myComputer);
+            return myComputers;
         }
     }
 }
