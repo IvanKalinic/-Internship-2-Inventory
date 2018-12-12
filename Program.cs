@@ -105,7 +105,7 @@ namespace Internship_2_Inventory
             // FALI ZA MANUFACTURERA
             var myVehicle = new Vehicles(Guid.NewGuid(), description, dateOfPurchase, monthsOfWarranty, price,
                 ManufacturerVehicles.Bmw, expirationDate, kilometers);
-            // var allVehicles = new List<Vehicles>();
+           
             myVehicles.Add(myVehicle);
             return myVehicles;
         }
@@ -120,7 +120,7 @@ namespace Internship_2_Inventory
             var monthsOfWarranty = int.Parse(Console.ReadLine());
             Console.WriteLine("Price=");
             var price = int.Parse(Console.ReadLine());
-            // manufacturer zasad priskocit
+            // manufacturer 
             Console.WriteLine("Unesi ima li bateriju?1-da,2-ne");
             var choiceForBattery = Boolean.Parse(Console.ReadLine());
             Console.WriteLine("Unesi ime i prezime osobe");
