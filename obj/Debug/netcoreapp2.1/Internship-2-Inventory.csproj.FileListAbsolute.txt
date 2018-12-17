@@ -1,0 +1,11 @@
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\bin\Debug\netcoreapp2.1\Internship-2-Inventory.deps.json
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\bin\Debug\netcoreapp2.1\Internship-2-Inventory.runtimeconfig.json
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\bin\Debug\netcoreapp2.1\Internship-2-Inventory.runtimeconfig.dev.json
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\bin\Debug\netcoreapp2.1\Internship-2-Inventory.dll
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\bin\Debug\netcoreapp2.1\Internship-2-Inventory.pdb
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.csprojAssemblyReference.cache
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.AssemblyInfoInputs.cache
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.AssemblyInfo.cs
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.dll
+C:\Users\Ivan\OneDrive\Desktop\-Internship-2-Inventory\obj\Debug\netcoreapp2.1\Internship-2-Inventory.pdb
