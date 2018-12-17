@@ -8,8 +8,8 @@ namespace Internship_2_Inventory
     {
         public bool HasBattery { get; set; }
         
-        public TechnologicalEquipment(Guid serialNumber, string description, string dateOfPurchase, int monthsOfWarranty,
-            int price,bool hasBattery)
+        public TechnologicalEquipment(Guid serialNumber, string description, DateTime dateOfPurchase, TimeSpan monthsOfWarranty,
+            double price,bool hasBattery)
             : base(serialNumber, description, dateOfPurchase, monthsOfWarranty, price)
         {
             HasBattery = hasBattery;

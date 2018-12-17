@@ -10,8 +10,8 @@ namespace Internship_2_Inventory
         public bool IsPortable { get; set; }
         public ManufacturerComputers Manufacturer { get; set; }
 
-        public Computer(Guid serialNumber, string description, string dateOfPurchase, int monthsOfWarranty,
-            int price, ManufacturerComputers manufacturer, bool hasBattery, string operationSystem, bool isPortable)
+        public Computer(Guid serialNumber, string description, DateTime dateOfPurchase, TimeSpan monthsOfWarranty,
+            double price, ManufacturerComputers manufacturer, bool hasBattery, string operationSystem, bool isPortable)
             : base(serialNumber, description, dateOfPurchase, monthsOfWarranty, price,hasBattery)
         {
             OperationSystem = operationSystem;
